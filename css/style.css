@@ -36,7 +36,9 @@
     color: white;
 }
 
-
+footer{
+    color: white;
+}
 /* ----START IMAGES RESIZE---- */
 .sony-logo{
     height: 25px;
@@ -78,5 +80,9 @@
 
 .bkg-blue{
     background-color: #161c3b;
+}
+
+.bkg-lightblue{
+    background-color: #00439c;
 }
 /* ----END BACKGROUND COLOR CLASS---- */
