@@ -1,8 +1,37 @@
 .jumbotron{
     background: url('../img/jumbo-bg.png') no-repeat 50% 0;
-    background-size: cover;
     height: 600px;
+}
+
+.jumbotron,
+.info-game{
+    background-size: cover;
+}
+
+.jumbotron,
+.info-game,
+.new-game-list,
+.play-now,
+footer,
+footer a:link, 
+footer a:visited,
+.btn{
     color: white;
+}
+
+.nav-arrow::after{
+    height: 20px;
+    width: 10px;
+    margin-left:12px;
+    content: url('../img/chevron-down-solid.svg');
+}
+
+.nav-item:hover .nav-arrow::after{
+    content: url('../img/chevron-down-solid-hover.svg');
+}
+
+a.nav-link.nav-arrow:hover{
+    color: #0072ce !important;
 }
 
 .thumb{
@@ -11,28 +40,31 @@
     height: 100%;
 }
 
-.active{
+.active-line{
     border-bottom: 2px solid #0072ce;
     opacity:1;
 }
 
+.active-border{
+    outline: 3px solid #0072ce;
+    outline-offset: 4px;
+}
+
+.motto{
+    text-transform: uppercase;
+    color: #0072ce;
+}
+
+.play-5 p:not(.play-5-slide p),
+.play-4 p,
+.discount p{
+    color:#797979
+}
+
 .info-game{
     background: url('../img/it-takes-two-hero-banner-desktop.jpg') no-repeat 50% 0;
-    background-size: cover;
-    color: white;
 }
 
-.new-game-list{
-    color: white;
-}
-
-.play-now{
-    color: white;
-}
-
-footer{
-    color: white;
-}
 
 .ps-logo::after{
     height: 20px;
@@ -41,11 +73,26 @@ footer{
     left:170px;
     bottom:40px;
 }
+
+footer ul{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+}
 /* ----START IMAGES RESIZE AND OTHER---- */
 .sony-logo{
     height: 25px;
     display: block;
     margin-left: auto;
+}
+
+.nav-arrow::after img{
+    width: 100%;
+}
+.search{
+    height: 20px;
 }
 
 .game-preview img, .new-game-list img{
@@ -74,6 +121,15 @@ footer{
 .sie-logo{
     width:200px;
 }
+
+.ps-logo > svg.shared-nav-ps-logo{
+    width:200px;
+    height:200px;
+}
+
+.ps-logo > svg.shared-nav-ps-logo path{
+    fill: white;
+}
 /* ----END IMAGES RESIZE AND OTHER---- */
 /* ----START BACKGROUND COLOR CLASS---- */
 .bkg-black{
@@ -96,3 +152,26 @@ footer{
     background-color: #00439c;
 }
 /* ----END BACKGROUND COLOR CLASS---- */
+/* ----START BUTTON---- */
+.btn.rounded-pill{
+    outline-offset: -4px;
+}
+.btn-orange{
+    background-color: orangered;
+    outline: 1px solid rgb(160, 50, 10);
+}
+
+.btn-lightblue{
+    background-color: #0072ce;
+    outline: 1px solid #08497e;
+}
+
+.btn-white{
+    background-color: #FFF;
+    outline: 1px solid #c0c0c0;
+    color:#00439c;
+}
+.btn-white.blue{
+    color:#161c3b;
+}
+/* ----END BUTTON---- */

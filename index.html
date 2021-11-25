@@ -26,37 +26,46 @@
     </header>
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="PlayStation Logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link nav-arrow d-flex align-items-center" aria-current="page" href="#game">Giochi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                        <a class="nav-link nav-arrow d-flex align-items-center" href="#hw">Hardware</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                        <a class="nav-link nav-arrow d-flex align-items-center" href="#">Servizi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-arrow d-flex align-items-center" href="#">Novità</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-arrow d-flex align-items-center" href="#">Fai Acquisti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-arrow d-flex align-items-center" href="#">Supporto</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                <div class="d-flex align-items-center">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link nav-arrow d-flex align-items-center" href="#my-ps">My PlayStation</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-dark rounded-pill mx-4" type="submit">Accedi</button>
+                        </li>
+                        <li class="nav-item btn-nav">
+                            <a class="nav-link btn-nav d-flex align-items-center" href="#search">
+                                <img class="search" src="./img/lens.svg" alt="Search Image">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>      
@@ -71,7 +80,7 @@
                         rinascita in questo esplosivo thriller fantascientifico, disponibile
                         in esclusiva su PS5.
                     </p>
-                    <button>Acquista Ora</button>
+                    <button class="btn rounded-pill btn-orange">Acquista Ora</button>
                 </div>
             </div>
         </div>
@@ -81,7 +90,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-6 col-sm-4 col-lg-2 pb-4">
-                    <img class="img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal Screen">
+                    <img class="active-border img-fluid" src="./img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal Screen">
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2 pb-4">
                     <img class="img-fluid" src="./img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet Clank Screen">
@@ -102,7 +111,7 @@
         </div>
     </section>
     <!-- ----PLAYSTATION 5 AND ACCESSORIES SLIDE---- -->
-    <section class="play-5 py-4">
+    <section id="hw" class="play-5 py-4">
         <div class="text-center py-4">
             <span class="motto">Play has no limits</span>
             <h1>Ecco la PlayStation 5</h1>
@@ -113,7 +122,7 @@
                 <div class="col-12 col-md-6">
                     <h1>Console PlayStation 5</h1>
                     <p>Sperimenta la nuova generazione di incredibili giochi PlayStation</p>
-                    <button>Maggiori Infomazioni</button>
+                    <button class="btn rounded-pill btn-lightblue">Maggiori Infomazioni</button>
                 </div>
                 <div class="col-12 col-md-6">
                     <img class="img-fluid" src="./img/playstation-5-thumb.png" alt="Play Station 5 Image">
@@ -122,7 +131,7 @@
             <div class="play-5-slide d-none d-md-block">
                 <div class="row pb-4">
                     <div class="col">
-                        <div class="thumb active">
+                        <div class="thumb active-line">
                             <img src="./img/playstation-5-thumb.png" alt="Play Station 5 Image">
                             <p>Console PS5</p>
                         </div>
@@ -153,10 +162,10 @@
                     </div>
                 </div>
             </div>
-            <div class="play-5-slide d-sm-none">
+            <div class="play-5-slide d-md-none">
                 <div class="row pb-4">
                     <div class="col-4">
-                        <div class="thumb active">
+                        <div class="thumb active-line">
                             <img class="img-fluid" src="./img/playstation-5-thumb.png" alt="Play Station 5 Image">
                         </div>
                     </div>
@@ -185,7 +194,7 @@
         </div>
     </section>
     <!-- ----NEW GAME SLIDE---- -->
-    <section class="new-game-preview pt-4">
+    <section id="game" class="new-game-preview pt-4">
         <div class="info-game d-flex align-items-end py-5">
             <div class="container">
                 <div class="row">
@@ -197,7 +206,7 @@
                             delle vostre vite in It Takes Two, un gioco d'avventura cooperativa 
                             a piattaforme che stravolge il suo genere.
                         </p>
-                        <button>Acquista Ora</button>
+                        <button class="btn rounded-pill btn-orange">Acquista Ora</button>
                     </div>
                 </div>
             </div>
@@ -273,19 +282,19 @@
                     <img src="./img/ps4-slim-homepage-image-block.jpg" alt="PlayStation 4 Slim Image">
                     <h2>PlayStation 4</h2>
                     <p>Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
-                    <button>Scopri di più</button>
+                    <button class="btn rounded-pill btn-lightblue">Scopri di più</button>
                 </div>
                 <div class="col-12 col-md-4">
                     <img src="./img/double11-202010-tw-psvr.jpg" alt="PlayStation VR Image">
                     <h2>PlayStation VR</h2>
                     <p>Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
-                    <button>Scopri di più</button>
+                    <button class="btn rounded-pill btn-lightblue">Scopri di più</button>
                 </div>
                 <div class="col-12 col-md-4">
                     <img src="./img/dualshock-4-listing-thumb.jpg" alt="PlayStation Joypad Image">
                     <h2>Accessori</h2>
                     <p>Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
-                    <button>Scopri di più</button>
+                    <button class="btn rounded-pill btn-lightblue">Scopri di più</button>
                 </div>
             </div>
         </div>
@@ -298,7 +307,7 @@
                     <div class="play-plus-box py-5">
                         <img class="play-plus-logo pb-4" src="./img/ps-plus-logo.png" alt="PlayStation Plus Logo">
                         <p>Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
-                        <button>Esplora Playstation Plus</button>
+                        <button class="btn rounded-pill btn-white">Esplora Playstation Plus</button>
                     </div>
                 </div>
                 <div class="col-md-6 d-none d-md-block">
@@ -336,7 +345,7 @@
                     <div class="play-now-box py-5">
                         <img class="play-now-logo pb-4" src="./img/ps-now-logo-two-column.png" alt="PlayStation Plus Logo">
                         <p>Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 o PC Windows, con i nuovi titoli aggiunti ogni mese.</p>
-                        <button>Esplora Playstation Now</button>
+                        <button class="btn rounded-pill btn-white blue">Esplora PlayStation Now</button>
                     </div>
                 </div>
                 <div class="col-md-6 d-none d-md-block">
@@ -368,7 +377,17 @@
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="ps-logo position-relative">
-                    <img src="./img/play_logo.svg" alt="PlayStation Logo">
+                    <svg class="shared-nav-ps-logo" width="50px" height="50px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 50 50" data-di-res-id="51237b9e-85bdd8e5" data-di-rand="1620209019838">
+                        <g>
+                          <g>
+                            <path d="M5.8,32.1C4.3,33.1,4.8,35,8,35.9c3.3,1.1,6.9,1.4,10.4,0.8c0.2,0,0.4-0.1,0.5-0.1v-3.4l-3.4,1.1
+                         c-1.3,0.4-2.6,0.5-3.9,0.2c-1-0.3-0.8-0.9,0.4-1.4l6.9-2.4V27l-9.6,3.3C8.1,30.7,6.9,31.3,5.8,32.1z M29,17.1v9.7
+                         c4.1,2,7.3,0,7.3-5.2c0-5.3-1.9-7.7-7.4-9.6C26,11,23,10.1,20,9.5v28.9l7,2.1V16.2c0-1.1,0-1.9,0.8-1.6C28.9,14.9,29,16,29,17.1z
+                          M42,29.8c-2.9-1-6-1.4-9-1.1c-1.6,0.1-3.1,0.5-4.5,1l-0.3,0.1v3.9l6.5-2.4c1.3-0.4,2.6-0.5,3.9-0.2c1,0.3,0.8,0.9-0.4,1.4
+                         l-10,3.7V40L42,34.9c1-0.4,1.9-0.9,2.7-1.7C45.4,32.2,45.1,30.8,42,29.8z" fill="#0070d1"></path>
+                          </g>
+                        </g>
+                      </svg>
                 </div>
                 <div class="language d-flex align-items-center pb-5">
                     <img class="me-4" src="./img/language-globe.svg" alt="Earth Globe Image">
@@ -379,29 +398,29 @@
                 <div class="row">
                     <div class="col-12 col-md-4">
                         <ul class="pb-1">
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-4">
                         <ul class="pb-1">
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-4">
                         <ul class="pb-1">
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
-                            <li><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
+                            <li class="pb-2"><a href="">Link footer n</a></li>
                         </ul>
                     </div>
                 </div>
