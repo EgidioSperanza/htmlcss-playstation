@@ -4,6 +4,11 @@
 -bkg-color class */
 /* -------------------------------------- */
 
+.jumbotron{
+    background:#000 url('../img/jumbo-bg.png') no-repeat 50% 0;
+    background-size: cover;
+    height: 600px;
+}
 /* ----START IMAGES SIZE---- */
 .sony-logo{
     height: 25px;
