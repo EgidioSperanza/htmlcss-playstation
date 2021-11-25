@@ -16,3 +16,9 @@
     background-color: black;
 }
 /* ----END BACKGROUND COLOR CLASS---- */
+
+/* ----DEBUG---- */
+.big-box{
+    height: 2000px;
+    background-color: cadetblue;
+}
