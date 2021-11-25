@@ -8,6 +8,11 @@
     background:#000 url('../img/jumbo-bg.png') no-repeat 50% 0;
     background-size: cover;
     height: 600px;
+    color: white;
+}
+
+.jumbotron img{
+    width: 50%;
 }
 /* ----START IMAGES SIZE---- */
 .sony-logo{
@@ -26,4 +31,8 @@
 .big-box{
     height: 2000px;
     background-color: cadetblue;
+}
+
+.mybg{
+    background-color: rgba(255, 255, 255, 0.3);
 }
