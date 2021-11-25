@@ -11,14 +11,27 @@
     color: white;
 }
 
-.jumbotron img{
-    width: 50%;
+.active::before{
+    border-bottom: 2px solid #0072ce;
 }
-/* ----START IMAGES SIZE---- */
+
+/* ----START IMAGES RESIZE---- */
 .sony-logo{
     height: 25px;
     display: block;
     margin-left: auto;
+}
+
+.jumbotron img{
+    width: 50%;
+}
+
+.game-preview img{
+    border-radius: 25px;
+}
+
+.play-5-slide.d-none.d-md-block img{
+    width: 60%;
 }
 /* ----END IMAGES SIZE---- */
 /* ----START BACKGROUND COLOR CLASS---- */
@@ -35,4 +48,5 @@
 
 .mybg{
     background-color: rgba(255, 255, 255, 0.3);
+    border:1px solid black
 }
