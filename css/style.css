@@ -1,9 +1,3 @@
-/* TODO:
--Utility button static
--Animation button & img hover
--bkg-color class */
-/* -------------------------------------- */
-
 .jumbotron{
     background: url('../img/jumbo-bg.png') no-repeat 50% 0;
     background-size: cover;
@@ -39,7 +33,15 @@
 footer{
     color: white;
 }
-/* ----START IMAGES RESIZE---- */
+
+.ps-logo::after{
+    height: 20px;
+    position: absolute;
+    content: '\00AE';
+    left:170px;
+    bottom:40px;
+}
+/* ----START IMAGES RESIZE AND OTHER---- */
 .sony-logo{
     height: 25px;
     display: block;
@@ -64,7 +66,15 @@ footer{
     display: block;
     margin: 0 auto;
 }
-/* ----END IMAGES SIZE---- */
+
+.language img{
+    height: 30px;
+}
+
+.sie-logo{
+    width:200px;
+}
+/* ----END IMAGES RESIZE AND OTHER---- */
 /* ----START BACKGROUND COLOR CLASS---- */
 .bkg-black{
     background-color: black;
