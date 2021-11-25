@@ -32,10 +32,11 @@
     color: white;
 }
 
-section.play-4 > .container > .row > [class*="col"] img{
-    display: block;
-    margin:0 auto;
+.play-now{
+    color: white;
 }
+
+
 /* ----START IMAGES RESIZE---- */
 .sony-logo{
     height: 25px;
@@ -50,7 +51,9 @@ section.play-4 > .container > .row > [class*="col"] img{
 .jumbotron img,
 .info-game img,
 .play-5-slide.d-none.d-md-block img,
-.play-4 img{
+.play-4 img,
+.play-plus-logo,
+.play-now-logo{
     width: 60%;
 }
 
@@ -68,15 +71,12 @@ section.play-4 > .container > .row > [class*="col"] img{
 .bkg-darkgray{
     background-color: #1f1f1f;
 }
+
+.bkg-silver{
+    background-color: silver;
+}
+
+.bkg-blue{
+    background-color: #161c3b;
+}
 /* ----END BACKGROUND COLOR CLASS---- */
-
-/* ----DEBUG---- */
-.big-box{
-    height: 2000px;
-    background-color: cadetblue;
-}
-
-.mybg{
-    background-color: rgba(255, 255, 255, 0.3);
-    border:1px solid black
-}
