@@ -1,0 +1,18 @@
+/* TODO:
+-Utility button static
+-Animation button & img hover
+-bkg-color class */
+/* -------------------------------------- */
+
+/* ----START IMAGES SIZE---- */
+.sony-logo{
+    height: 25px;
+    display: block;
+    margin-left: auto;
+}
+/* ----END IMAGES SIZE---- */
+/* ----START BACKGROUND COLOR CLASS---- */
+.bkg-black{
+    background-color: black;
+}
+/* ----END BACKGROUND COLOR CLASS---- */
