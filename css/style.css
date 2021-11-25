@@ -5,16 +5,37 @@
 /* -------------------------------------- */
 
 .jumbotron{
-    background:#000 url('../img/jumbo-bg.png') no-repeat 50% 0;
+    background: url('../img/jumbo-bg.png') no-repeat 50% 0;
     background-size: cover;
     height: 600px;
     color: white;
 }
 
-.active::before{
-    border-bottom: 2px solid #0072ce;
+.thumb{
+    text-align: center;
+    opacity:.5;
+    height: 100%;
 }
 
+.active{
+    border-bottom: 2px solid #0072ce;
+    opacity:1;
+}
+
+.info-game{
+    background: url('../img/it-takes-two-hero-banner-desktop.jpg') no-repeat 50% 0;
+    background-size: cover;
+    color: white;
+}
+
+.new-game-list{
+    color: white;
+}
+
+section.play-4 > .container > .row > [class*="col"] img{
+    display: block;
+    margin:0 auto;
+}
 /* ----START IMAGES RESIZE---- */
 .sony-logo{
     height: 25px;
@@ -22,21 +43,30 @@
     margin-left: auto;
 }
 
-.jumbotron img{
-    width: 50%;
-}
-
-.game-preview img{
+.game-preview img, .new-game-list img{
     border-radius: 25px;
 }
 
-.play-5-slide.d-none.d-md-block img{
+.jumbotron img,
+.info-game img,
+.play-5-slide.d-none.d-md-block img,
+.play-4 img{
     width: 60%;
+}
+
+.play-5-slide.d-none.d-md-block img,
+.play-4 img{
+    display: block;
+    margin: 0 auto;
 }
 /* ----END IMAGES SIZE---- */
 /* ----START BACKGROUND COLOR CLASS---- */
 .bkg-black{
     background-color: black;
+}
+
+.bkg-darkgray{
+    background-color: #1f1f1f;
 }
 /* ----END BACKGROUND COLOR CLASS---- */
 
