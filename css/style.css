@@ -148,14 +148,13 @@ footer a:hover{
 
 .jumbotron img,
 .info-game img,
-.play-5 img,
 .play-4 img,
+.thumb img,
 .play-plus-logo,
 .play-now-logo{
-    max-width: 60%;
+    max-width: 80%;
 }
 
-.play-5-slide.d-none.d-md-block img,
 .play-4 img{
     display: block;
     margin: 0 auto;
@@ -222,10 +221,6 @@ footer a:hover{
     color: #00439c;
 }
 
-.btn.rounded-pill.btn-white:hover{
-    color: #00439c;
-}
-
 .btn-gray{
     background-color: #333;
 }
@@ -241,7 +236,13 @@ footer a:hover{
 .btn-white,
 .btn-pls{
     background-color: #FFF;
-    color:#161c3b;
 }
 
+.btn-white{
+    color: #0072ce;
+}
+
+.btn-pls{
+    color: #161c3b;
+}
 /* ----END BUTTON---- */
