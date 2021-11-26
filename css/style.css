@@ -19,6 +19,23 @@ footer a:visited,
     color: white;
 }
 
+.dropdown-menu.show a:link,.dropdown-menu.show a:visited{
+    text-decoration: none;
+}
+
+.dropdown-menu.show a:hover{
+    background-color: #0072ce;
+    color: white;
+}
+
+ul.dropdown-menu.show li.li-style{
+    list-style: inside;
+    color: #0072ce;
+}
+
+.ps-sub-link li{
+
+}
 .nav-arrow::after{
     height: 20px;
     width: 10px;
@@ -46,7 +63,8 @@ a.nav-link.nav-arrow:hover{
 }
 
 .game-preview img:hover{
-    margin-top:-4px;
+    margin-top:-12px;
+    transition: all .5s;
 }
 
 .active-line{
@@ -119,7 +137,7 @@ footer a:hover{
 .play-4 img,
 .play-plus-logo,
 .play-now-logo{
-    width: 60%;
+    max-width: 60%;
 }
 
 .play-5-slide.d-none.d-md-block img,
@@ -181,7 +199,7 @@ footer a:hover{
 }
 
 .btn.rounded-pill:hover{
-    transition: all .3s;
+    transition: all .5s;
 }
 
 .btn.rounded-pill.btn-white:hover{
@@ -212,3 +230,23 @@ footer a:hover{
 }
 
 /* ----END BUTTON---- */
+/* ----PROVA NAVBAR BONUS CON MEDIA QUERY---- */
+@media only screen and (min-width:992px){
+    .dropdown {
+        position: static !important;
+    }
+      
+    .dropdown-menu {
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+        margin-top: 0px !important;
+        width: 100% !important;
+    }
+    
+    .dropdown-menu.show{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
