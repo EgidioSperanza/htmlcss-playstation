@@ -40,6 +40,10 @@ a.nav-link.nav-arrow:hover{
     height: 100%;
 }
 
+.game-preview img:hover{
+    margin-top:-4px;
+}
+
 .active-line{
     border-bottom: 2px solid #0072ce;
     opacity:1;
