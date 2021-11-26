@@ -19,6 +19,24 @@ footer a:visited,
     color: white;
 }
 
+.dropdown {
+    position: static !important;
+}
+  
+.dropdown-menu {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+    margin-top: 0px !important;
+    width: 100% !important;
+}
+
+.dropdown-menu.show{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
 .dropdown-menu.show a:link,.dropdown-menu.show a:visited{
     text-decoration: none;
 }
@@ -33,9 +51,6 @@ ul.dropdown-menu.show li.li-style{
     color: #0072ce;
 }
 
-.ps-sub-link li{
-
-}
 .nav-arrow::after{
     height: 20px;
     width: 10px;
@@ -230,23 +245,3 @@ footer a:hover{
 }
 
 /* ----END BUTTON---- */
-/* ----PROVA NAVBAR BONUS CON MEDIA QUERY---- */
-@media only screen and (min-width:992px){
-    .dropdown {
-        position: static !important;
-    }
-      
-    .dropdown-menu {
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
-        margin-top: 0px !important;
-        width: 100% !important;
-    }
-    
-    .dropdown-menu.show{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        text-align: center;
-    }
-}
