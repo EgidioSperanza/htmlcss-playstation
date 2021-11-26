@@ -36,7 +36,7 @@ a.nav-link.nav-arrow:hover{
 
 .thumb{
     text-align: center;
-    opacity:.5;
+    opacity:.4;
     height: 100%;
 }
 
@@ -105,7 +105,7 @@ footer a{
 
 .jumbotron img,
 .info-game img,
-.play-5-slide.d-none.d-md-block img,
+.play-5 img,
 .play-4 img,
 .play-plus-logo,
 .play-now-logo{
@@ -157,24 +157,35 @@ footer a{
 }
 /* ----END BACKGROUND COLOR CLASS---- */
 /* ----START BUTTON---- */
-.btn.rounded-pill{
+
+.btn.rounded-pill:hover{
     outline-offset: -4px;
+    color: #FFF;
+    transition: all .3s;
 }
+
+.btn.rounded-pill.btn-white:hover{
+    color: #00439c;
+}
+
+.btn-gray{
+    background-color: #333;
+}
+
 .btn-orange{
     background-color: orangered;
-    outline: 1px solid rgb(160, 50, 10);
+    outline: 2px solid #161c3b;
 }
 
 .btn-lightblue{
     background-color: #0072ce;
-    outline: 1px solid #08497e;
 }
 
 .btn-white{
     background-color: #FFF;
-    outline: 1px solid #c0c0c0;
     color:#00439c;
 }
+
 .btn-white.blue{
     color:#161c3b;
 }

@@ -19,54 +19,56 @@
     </head>
     <body>
     <!-- ----HEADER NAV JUMBOTRON---- -->
-    <header class="bkg-black p-2">
-        <img class="sony-logo" src="./img/sony_logo.svg" alt="Sony Logo Image">
-    </header>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="PlayStation Logo"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link nav-arrow d-flex align-items-center" aria-current="page" href="#game">Giochi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-arrow d-flex align-items-center" href="#hw">Hardware</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-arrow d-flex align-items-center" href="#">Servizi</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-arrow d-flex align-items-center" href="#">Novità</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-arrow d-flex align-items-center" href="#">Fai Acquisti</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link nav-arrow d-flex align-items-center" href="#">Supporto</a>
-                    </li>
-                </ul>
-                <div class="d-flex align-items-center">
+    <header class="sticky-top">
+        <section class="pre-header bkg-black p-2">
+            <img class="sony-logo" src="./img/sony_logo.svg" alt="Sony Logo Image">
+        </section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/play_logo.svg" alt="PlayStation Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link nav-arrow d-flex align-items-center" href="#my-ps">My PlayStation</a>
+                            <a class="nav-link nav-arrow d-flex align-items-center" aria-current="page" href="#game">Giochi</a>
                         </li>
                         <li class="nav-item">
-                            <button class="btn btn-dark rounded-pill mx-lg-4" type="submit">Accedi</button>
+                            <a class="nav-link nav-arrow d-flex align-items-center" href="#hw">Hardware</a>
                         </li>
-                        <li class="nav-item btn-nav">
-                            <a class="nav-link btn-nav d-flex align-items-center" href="#search">
-                                <img class="search" src="./img/lens.svg" alt="Search Image">
-                            </a>
+                        <li class="nav-item">
+                            <a class="nav-link nav-arrow d-flex align-items-center" href="#">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-arrow d-flex align-items-center" href="#">Novità</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-arrow d-flex align-items-center" href="#">Fai Acquisti</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-arrow d-flex align-items-center" href="#">Supporto</a>
                         </li>
                     </ul>
+                    <div class="d-flex align-items-center">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link nav-arrow d-flex align-items-center" href="#my-ps">My PlayStation</a>
+                            </li>
+                            <li >
+                                <button class="btn btn-gray rounded-pill mx-lg-4" type="submit">Accedi</button>
+                            </li>
+                            <li class="nav-item btn-nav">
+                                <a class="nav-link btn-nav d-flex align-items-center" href="#search">
+                                    <img class="search" src="./img/lens.svg" alt="Search Image">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>      
+        </nav>
+    </header>      
     <section class="jumbotron d-flex align-items-end py-5">
         <div class="container">
             <div class="row">
@@ -126,66 +128,35 @@
                     <img class="img-fluid" src="./img/playstation-5-thumb.png" alt="Play Station 5 Image">
                 </div>
             </div>
-            <div class="play-5-slide d-none d-md-block">
-                <div class="row pb-4">
-                    <div class="col">
-                        <div class="thumb active-line">
-                            <img src="./img/playstation-5-thumb.png" alt="Play Station 5 Image">
-                            <p class="pb-4">Console PS5</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="thumb">
-                            <img src="./img/joypad-thumb.png" alt="Play Station 5 Joypad Image">
-                            <p class="pb-4">Controller wireless DualSense&#8482;</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="thumb">
-                            <img src="./img/headset-thumb.png" alt="Play Station 5 Head Set Image">
-                            <p class="pb-4">Cuffie wireless con microfono PULSE 3&#8482;</p>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="thumb">
-                            <img src="./img/remote-thumb.png" alt="Play Station 5 Remote Control Image">
-                            <p class="pb-4">Telecomando Media</p>
-                        </div>          
-                    </div>
-                    <div class="col">
-                        <div class="thumb">
-                            <img src="./img/camera-thumb.jpg" alt="Play Station 5 Camera Image">
-                            <p class="pb-4">Telecamera HD</p>
-                        </div>
+            <div class="row row-cols-3 row-cols-md-5 text-center">
+                <div class="col">
+                    <div class="thumb active-line">
+                        <img src="./img/playstation-5-thumb.png" alt="Play Station 5 Image">
+                        <p class="d-none d-md-block pb-4">Console PS5</p>
                     </div>
                 </div>
-            </div>
-            <div class="play-5-slide d-md-none">
-                <div class="row pb-4">
-                    <div class="col-4">
-                        <div class="thumb active-line">
-                            <img class="img-fluid" src="./img/playstation-5-thumb.png" alt="Play Station 5 Image">
-                        </div>
+                <div class="col">
+                    <div class="thumb">
+                        <img src="./img/joypad-thumb.png" alt="Play Station 5 Joypad Image">
+                        <p class="d-none d-md-block pb-4">Controller wireless DualSense&#8482;</p>
                     </div>
-                    <div class="col-4">
-                        <div class="thumb">
-                            <img class="img-fluid" src="./img/joypad-thumb.png" alt="Play Station 5 Joypad Image">
-                        </div>
+                </div>
+                <div class="col h-100">
+                    <div class="thumb">
+                        <img src="./img/headset-thumb.png" alt="Play Station 5 Head Set Image">
+                        <p class="d-none d-md-block pb-4">Cuffie wireless con microfono PULSE 3&#8482;</p>
                     </div>
-                    <div class="col-4">
-                        <div class="thumb">
-                            <img  class="img-fluid" src="./img/headset-thumb.png" alt="Play Station 5 Head Set Image">
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="thumb">
+                        <img src="./img/remote-thumb.png" alt="Play Station 5 Remote Control Image">
+                        <p class="d-none d-md-block pb-4">Telecomando Media</p>
                     </div>
-                    <div class="col-4">
-                        <div class="thumb">
-                            <img class="img-fluid" src="./img/remote-thumb.png" alt="Play Station 5 Remote Control Image">
-                        </div>          
-                    </div>
-                    <div class="col-4">
-                        <div class="thumb">
-                            <img class="img-fluid" src="./img/camera-thumb.jpg" alt="Play Station 5 Camera Image">
-                        </div>
+                </div>
+                <div class="col">
+                    <div class="thumb">
+                        <img src="./img/camera-thumb.jpg" alt="Play Station 5 Camera Image">
+                        <p class="d-none d-md-block pb-4">Telecamera HD</p>
                     </div>
                 </div>
             </div>
@@ -216,51 +187,51 @@
             <h3 class="pb-4">Giochi incredibili per PS4 e PS5 disponibili ora</h3>
             <div class="row">
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
+                    <img class="img-fluid mb-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
                     <p class="pb-4">Tony Hawk's&#8482; Pro Skater&#8482; 1 + 2</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
+                    <img class="img-fluid mb-1" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
                     <p class="pb-4">Crash Bandicoot 4: It's About Time</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
+                    <img class="img-fluid mb-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
                     <p class="pb-4">Tony Hawk's&#8482; Pro Skater&#8482; 1 + 2</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
+                    <img class="img-fluid mb-1" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
                     <p class="pb-4">Crash Bandicoot 4: It's About Time</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
+                    <img class="img-fluid mb-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
                     <p class="pb-4">Tony Hawk's&#8482; Pro Skater&#8482; 1 + 2</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
+                    <img class="img-fluid mb-1" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
                     <p class="pb-4">Crash Bandicoot 4: It's About Time</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
+                    <img class="img-fluid mb-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
                     <p class="pb-4">Tony Hawk's&#8482; Pro Skater&#8482; 1 + 2</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
+                    <img class="img-fluid mb-1" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
                     <p class="pb-4">Crash Bandicoot 4: It's About Time</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
+                    <img class="img-fluid mb-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
                     <p class="pb-4">Tony Hawk's&#8482; Pro Skater&#8482; 1 + 2</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
+                    <img class="img-fluid mb-1" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
                     <p class="pb-4">Crash Bandicoot 4: It's About Time</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
+                    <img class="img-fluid mb-1" src="./img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="Tony Hawk's Pro Skater Collection Cover">
                     <p class="pb-4">Tony Hawk's&#8482; Pro Skater&#8482; 1 + 2</p>
                 </div>
                 <div class="col-6 col-sm-4 col-lg-2">
-                    <img class="img-fluid mb-4" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
+                    <img class="img-fluid mb-1" src="./img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Crash Bandicoot 4 Cover">
                     <p class="pb-4">Crash Bandicoot 4: It's About Time</p>
                 </div>
             </div>
@@ -276,28 +247,28 @@
                 </p>
             </div>
             <div class="row pb-4">
-                <div class="col-12 col-md-4">
-                    <div class="h-100">
+                <div class="col-12 col-md-4 my-4">
+                    <div class="play-4-desc h-100">
                         <img src="./img/ps4-slim-homepage-image-block.jpg" alt="PlayStation 4 Slim Image">
                         <h2>PlayStation 4</h2>
                         <p>Giochi incredibili live su PS4, con 1 TB di spazio di archiviazione.</p>
                     </div>
                     <button class="btn rounded-pill btn-lightblue">Scopri di più</button>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="h-100">
+                <div class="col-12 col-md-4 my-4">
+                    <div class="play-4-desc h-100">
                         <img src="./img/double11-202010-tw-psvr.jpg" alt="PlayStation VR Image">
                         <h2>PlayStation VR</h2>
                         <p>Oltre 500 titoli ed esperienze di gioco. Scoprili tutti.</p>
                     </div>
-                        <button class="btn rounded-pill btn-lightblue">Scopri di più</button>
+                    <button class="btn rounded-pill btn-lightblue">Scopri di più</button>
                 </div>
-                <div class="col-12 col-md-4">
-                    <div class="h-100">
+                <div class="col-12 col-md-4 my-4">
+                    <div class="play-4-desc h-100">
                         <img src="./img/dualshock-4-listing-thumb.jpg" alt="PlayStation Joypad Image">
                         <h2>Accessori</h2>
                         <p>Migliora la tua esperienza PS4 con una gamma di accessori ufficiali.</p>
-                        </div>
+                    </div>
                     <button class="btn rounded-pill btn-lightblue">Scopri di più</button>
                 </div>
             </div>
@@ -306,15 +277,13 @@
     <!-- ----PLAYSTATION PLUS---- -->
     <section class="play-plus bkg-silver my-5">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6">
-                    <div class="play-plus-box py-5">
-                        <img class="play-plus-logo pb-4" src="./img/ps-plus-logo.png" alt="PlayStation Plus Logo">
-                        <p class="pb-4">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
-                        <button class="btn rounded-pill btn-white">Esplora Playstation Plus</button>
-                    </div>
+            <div class="row">
+                <div class="col-12 col-md-6 my-5 my-md-auto">
+                    <img class="play-plus-logo pb-4" src="./img/ps-plus-logo.png" alt="PlayStation Plus Logo">
+                    <p class="pb-4">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
+                    <button class="btn rounded-pill btn-white">Esplora Playstation Plus</button>
                 </div>
-                <div class="col-md-6 d-none d-md-block">
+                <div class="col-12 col-md-6 d-none d-md-block">
                     <img class="img-fluid" src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="PlayStation Plus Image">
                 </div>
             </div>
