@@ -245,4 +245,13 @@ footer a:hover{
 .btn-pls{
     color: #161c3b;
 }
+
+.btn:active,
+.btn:focus,
+.btn.active,
+.btn:active:focus {
+   background-image: none;
+   -webkit-box-shadow: none;
+   box-shadow: none;
+}
 /* ----END BUTTON---- */
