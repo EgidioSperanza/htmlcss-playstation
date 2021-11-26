@@ -40,6 +40,11 @@ a.nav-link.nav-arrow:hover{
     height: 100%;
 }
 
+.thumb:hover{
+    opacity: 1;
+    transition: all 1s;
+}
+
 .game-preview img:hover{
     margin-top:-4px;
 }
@@ -84,6 +89,11 @@ footer ul{
 
 footer a{
     text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color:gold;
 }
 /* ----START IMAGES RESIZE AND OTHER---- */
 .sony-logo{
@@ -157,11 +167,26 @@ footer a{
 }
 /* ----END BACKGROUND COLOR CLASS---- */
 /* ----START BUTTON---- */
+.btn.rounded-pill:not(.btn-gray){
+    padding: 12px;
+}
+
+.btn.rounded-pill:not(.btn-white, .btn-pls){
+    color: #FFF;
+}
+
+.btn.rounded-pill:not( .btn-white):hover{
+    outline-offset: -6px;
+    outline: 3px solid #161c3b;
+}
 
 .btn.rounded-pill:hover{
-    outline-offset: -4px;
-    color: #FFF;
     transition: all .3s;
+}
+
+.btn.rounded-pill.btn-white:hover{
+    box-shadow: 2px 2px 2px 2px rgba(85, 77, 77, 0.5);
+    color: #00439c;
 }
 
 .btn.rounded-pill.btn-white:hover{
@@ -174,19 +199,16 @@ footer a{
 
 .btn-orange{
     background-color: orangered;
-    outline: 2px solid #161c3b;
 }
 
 .btn-lightblue{
     background-color: #0072ce;
 }
 
-.btn-white{
+.btn-white,
+.btn-pls{
     background-color: #FFF;
-    color:#00439c;
-}
-
-.btn-white.blue{
     color:#161c3b;
 }
+
 /* ----END BUTTON---- */
