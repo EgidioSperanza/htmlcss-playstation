@@ -127,6 +127,12 @@ footer a{
     text-decoration: none;
 }
 /* ----START IMAGES RESIZE AND OTHER---- */
+/* ----FIX  IMAGE FOR EXPLORER---- */
+img{
+    max-width: 100%;
+    flex-shrink: 0;
+}
+/* --------------------------------------------- */
 .sony-logo{
     height: 25px;
     display: block;
