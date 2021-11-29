@@ -199,6 +199,10 @@ footer a:hover{
 }
 /* ----END BACKGROUND COLOR CLASS---- */
 /* ----START BUTTON---- */
+.btn.rounded-pill{
+    background-clip: padding-box;
+}
+
 .btn.rounded-pill:not(.btn-gray){
     padding: 12px;
 }
