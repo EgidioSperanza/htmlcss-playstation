@@ -201,6 +201,8 @@ footer a:hover{
 /* ----START BUTTON---- */
 .btn.rounded-pill{
     background-clip: padding-box;
+    outline-offset: -6px;
+    outline: 3px solid transparent;
 }
 
 .btn.rounded-pill:not(.btn-gray){
@@ -212,12 +214,11 @@ footer a:hover{
 }
 
 .btn.rounded-pill:not( .btn-white):hover{
-    outline-offset: -6px;
-    outline: 3px solid #161c3b;
+    outline-color:  #161c3b;
 }
 
 .btn.rounded-pill:hover{
-    transition: all .5s;
+    transition: all 1s;
 }
 
 .btn.rounded-pill.btn-white:hover{
