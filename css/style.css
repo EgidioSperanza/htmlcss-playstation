@@ -77,9 +77,14 @@ a.nav-link.nav-arrow:hover{
     transition: all 1s;
 }
 
+.game-preview img{
+    padding: 3px;
+    border: 3px solid transparent;
+}
+
 .game-preview img:hover{
     margin-top:-12px;
-    transition: all .5s;
+    transition: all .5s ease-in-out;
 }
 
 .active-line{
@@ -87,9 +92,8 @@ a.nav-link.nav-arrow:hover{
     opacity:1;
 }
 
-.active-border{
-    outline: 3px solid #0072ce;
-    outline-offset: 4px;
+.game-preview img.active-border{
+    border-color: #0072ce;
 }
 
 .motto{
