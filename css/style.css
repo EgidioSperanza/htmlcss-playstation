@@ -111,7 +111,6 @@ a.nav-link.nav-arrow:hover{
     background: url('../img/it-takes-two-hero-banner-desktop.jpg') no-repeat 50% 0;
 }
 
-
 .ps-logo::after{
     height: 20px;
     position: absolute;
@@ -127,11 +126,6 @@ footer ul{
 footer a{
     text-decoration: none;
 }
-
-footer a:hover{
-    text-decoration: underline;
-    color:gold;
-}
 /* ----START IMAGES RESIZE AND OTHER---- */
 .sony-logo{
     height: 25px;
@@ -142,6 +136,7 @@ footer a:hover{
 .nav-arrow::after img{
     width: 100%;
 }
+
 .search{
     height: 20px;
 }
